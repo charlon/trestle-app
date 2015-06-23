@@ -15,6 +15,7 @@ setup(
         'setuptools',
         'django',
         'django-compressor',
+        'django-templatetag-handlebars',
         'django_mobileesp',
         'django-easy-pjax',
     ],

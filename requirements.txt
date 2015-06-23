@@ -1,0 +1,8 @@
+### This is just here for Ansible installations.
+### *All* requirements must live in the setup.py file
+setuptools
+django
+django-compressor
+django-templatetag-handlebars
+django_mobileesp
+django-easy-pjax
