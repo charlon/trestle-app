@@ -80,7 +80,7 @@
         
         {% templatetag openblock %} if not less_compiled {% templatetag closeblock %}
             <!-- less.js -->
-            <script src="{% templatetag openblock %} static 'vendor/js/less-2.0.0.min.js' {% templatetag closeblock %}" type="text/javascript"></script>
+            <script src="{% templatetag openblock %} static "vendor/js/less-2.0.0.min.js" {% templatetag closeblock %}" type="text/javascript"></script>
         {% templatetag openblock %} endif {% templatetag closeblock %}
         
     </head>
@@ -132,7 +132,7 @@
         <script src="{% templatetag openblock %} static "vendor/js/bootstrap-3.3.5.min.js" {% templatetag closeblock %}"></script>
         <script src="{% templatetag openblock %} static "vendor/js/aca-devtools.min.js" {% templatetag closeblock %}"></script>
         <!-- app js goes here -->
-        <script src="{% templatetag openblock %} static "app_name/js/example.js" {% templatetag closeblock %}"></script>
+        <script src="{% templatetag openblock %} static "{{ app_name }}/js/example.js" {% templatetag closeblock %}"></script>
         {% templatetag openblock %} endcompress {% templatetag closeblock %}
         
         {% templatetag openblock %} if google_analytics {% templatetag closeblock %}
